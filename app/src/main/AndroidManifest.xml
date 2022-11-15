@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.fundamentals">
+    package="com.afernandezcar.first">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
@@ -15,7 +15,7 @@
         android:theme="@style/MyTheme"
         tools:targetApi="31" >
         <activity
-            android:name=".SignupActivity"
+            android:name="com.afernandezcar.first.SignupActivity"
             android:exported="false"
             android:theme="@style/MyTheme.NoActionBar">
             <meta-data
@@ -23,7 +23,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name="com.afernandezcar.first.LoginActivity"
             android:exported="true"
             android:theme="@style/MyTheme.NoActionBar">
             <intent-filter>

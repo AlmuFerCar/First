@@ -1,4 +1,4 @@
-package com.example.fundamentals;
+package com.afernandezcar.first;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.TextView;
+
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
+import com.example.fundamentals.R;
 
 public class LoginActivity extends AppCompatActivity {
     /*TextView textosingup;*/

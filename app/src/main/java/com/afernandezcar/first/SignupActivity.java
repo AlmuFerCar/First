@@ -1,8 +1,10 @@
-package com.example.fundamentals;
+package com.afernandezcar.first;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.fundamentals.R;
 
 public class SignupActivity extends AppCompatActivity {
 
