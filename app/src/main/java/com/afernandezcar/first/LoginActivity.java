@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -18,6 +20,15 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+
+        //implements and starts animation
+        //objeto thunder sobre el cual aplicaremos la animacion
+        ImageView thunder=findViewById(R.id.mono);
+        // creamos un objeto animacion que incorpora la animacion descrita en el xml y con el método
+        //startAnimation lo aplicamos al imageView del logo
+        Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
+        thunder.startAnimation(myanim);
        /* textosingup = findViewById(R.id.signup);*/
 
       /*  Intent intent = getIntent();
@@ -43,8 +54,9 @@ public class LoginActivity extends AppCompatActivity {
                 .into(mGirl);
 
         Glide.with(this)
-                .load("https://images.unsplash.com/photo-1512849934327-1cf5bf8a5ccc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80")
-                .circleCrop()
+                //.load("https://images.unsplash.com/photo-1512849934327-1cf5bf8a5ccc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80")
+                .load(R.drawable.mono)
+               // .circleCrop()
                 .into(mlogo);
     }
 
