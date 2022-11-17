@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/hojas"
+    android:background="@drawable/gradient"
     tools:context="com.afernandezcar.first.Splash">
 
     <ImageView
@@ -33,7 +33,7 @@
         android:layout_marginTop="30dp"
         android:fontFamily="@font/barriecito"
         android:text="FiRST"
-        android:textColor="@color/paleta2_rojizo"
+        android:textColor="@color/paleta1_marron"
         android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="@id/logosplash"
         app:layout_constraintStart_toStartOf="@id/logosplash"
