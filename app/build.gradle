@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.fundamentals'
+    namespace 'com.afernandezcar.first'
     compileSdk 32
 
     defaultConfig {

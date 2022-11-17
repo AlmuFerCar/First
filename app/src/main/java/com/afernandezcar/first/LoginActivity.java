@@ -12,7 +12,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
-import com.example.fundamentals.R;
+import com.afernandezcar.first.R;
 
 public class LoginActivity extends AppCompatActivity {
     /*TextView textosingup;*/
