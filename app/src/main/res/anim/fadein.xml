@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android"
-    >
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--android:fillAfter="true"  PARA QUE DESAPAREZCA EL LOGO-->
 
 <!--    android:interpolator="@android:anim/bounce_interpolator"-->
     <alpha
@@ -23,8 +23,8 @@
         android:fromYScale="1"
         android:pivotX="50%"
         android:pivotY="50%"
-        android:toXScale="2"
-        android:toYScale="2"
+        android:toXScale="1.5"
+        android:toYScale="1.5"
         />
 <!--        android:pivotX="50%p"  para que sea en proporcion al padre-->
 <!--        android:pivotY="50%p"-->

@@ -15,6 +15,8 @@
     </style>
 
     <style name="MyTheme" parent="Theme.Fundamentals">
+
+        <item name="android:windowIsTranslucent">true</item>
 <!--                <item name="android:backgroundTint">@color/purple_200</item>-->
     </style>
 
