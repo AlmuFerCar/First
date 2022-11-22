@@ -88,7 +88,8 @@
         app:layout_constraintTop_toBottomOf="@id/password"
         app:layout_constraintStart_toStartOf="@id/leftguide"
         style="@style/buttonflat"
-        android:backgroundTint="@color/buttonselector"/>
+        android:backgroundTint="@color/buttonselector"
+        android:onClick="iniciarMain"/>
 
 
        <!-- android:onClick="openMain"-->

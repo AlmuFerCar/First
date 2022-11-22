@@ -64,8 +64,15 @@ public class LoginActivity extends AppCompatActivity {
         Intent intent = new Intent(LoginActivity.this, SignupActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK); /*PARA QUE NO SE PUEDA IR HACIA ATRAS*/
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK); /*PARA QUE NO SE PUEDA IR HACIA ATRAS*/
-        startActivity(intent);
+        startActivity(intent);}
 
+        public void iniciarMain(View v)
+        {
+            Intent intent = new Intent(LoginActivity.this, Main.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK); /*PARA QUE NO SE PUEDA IR HACIA ATRAS*/
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK); /*PARA QUE NO SE PUEDA IR HACIA ATRAS*/
+            startActivity(intent);
+        }
 
 
     }
@@ -74,4 +81,3 @@ public class LoginActivity extends AppCompatActivity {
         Intent intent = new Intent( this, SignupActivity.class);
         startActivity(intent);
     }*/
-}
