@@ -1,6 +1,7 @@
 package com.afernandezcar.first;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.os.Bundle;
 import android.view.ContextMenu;
@@ -12,6 +13,7 @@ import android.widget.Toast;
 
 public class Main extends AppCompatActivity {
     private WebView miVisorWeb;
+    private SwipeRefreshLayout swipeLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,8 +32,8 @@ public class Main extends AppCompatActivity {
         // DENTRO del Oncreate
         // cast al Layout SwipeRefresh con el que rodeamos la vista
         // en el xml y le colocamos un listener
-//        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.myswipe);
-//        swipeLayout.setOnRefreshListener(mOnRefreshListener);
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.myswipe);
+        swipeLayout.setOnRefreshListener(mOnRefreshListener);
 
         //La vista dentro es un webview con permiso para zoom
         miVisorWeb = (WebView) findViewById(R.id.vistaweb);
@@ -39,6 +41,17 @@ public class Main extends AppCompatActivity {
         miVisorWeb.getSettings().setBuiltInZoomControls(true);
         miVisorWeb.loadUrl("https://thispersondoesnotexist.com");
     }
+
+    protected SwipeRefreshLayout.OnRefreshListener
+            mOnRefreshListener = new SwipeRefreshLayout.OnRefreshListener() {
+        @Override
+        public void onRefresh() {
+            Toast toast0 = Toast.makeText(Main.this, "Hi there! I don't exist :)", Toast.LENGTH_LONG);
+            toast0.show();
+            miVisorWeb.reload();
+            swipeLayout.setRefreshing(false);
+        }
+    };
 
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo)
     {
@@ -53,6 +66,20 @@ public class Main extends AppCompatActivity {
             case R.id.item1:
                 Toast toast1 =Toast.makeText(this, "Item copied", Toast.LENGTH_LONG);
                 toast1.show();
+
+                //                final ConstraintLayout mLayout = findViewById(R.id.myMainConstraint);
+//
+//                Snackbar snackbar = Snackbar
+//                        .make(mLayout, "fancy a Snack while you refresh?", Snackbar.LENGTH_LONG)
+//                        .setAction("UNDO", new View.OnClickListener() {
+//                            @Override
+//                            public void onClick(View view) {
+//                                Snackbar snackbar1 = Snackbar.make(mLayout, "Action is restored!", Snackbar.LENGTH_SHORT);
+//                                snackbar1.show();
+//                            }
+//                        });
+//
+//                snackbar.show();
                 return true;
 
             case R.id.item2:
