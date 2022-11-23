@@ -49,7 +49,7 @@ public class LoginActivity extends AppCompatActivity {
 
                 .transition(DrawableTransitionOptions.withCrossFade(1000))
 //                .centerCrop()
-                .placeholder(new ColorDrawable(this.getResources().getColor(R.color.purple_200)))
+//                .placeholder(new ColorDrawable(this.getResources().getColor(R.color.purple_200)))
 //                .circleCrop()
                 .into(mGirl);
 
