@@ -4,7 +4,7 @@
  * Splash init with image online [Splash_java](https://github.com/AlmuFerCar/First/blob/master/app/src/main/java/com/afernandezcar/first/Splash.java)
 
 
-![image_splash_internet](<center>img/splash_con_carga_imagen.png</center>)
+   ![image_splash_internet](img/splash_con_carga_imagen.png)
 
 
 If the internet image is not loaded, you see a background color that is predefined
@@ -27,6 +27,22 @@ If the internet image is not loaded, you see a background color that is predefin
 
 
 ## LOGIN VIEW
+ * Background gradient
+ * Image face
+ * Animation fade in
+ * Animation zoom
+ * Animation rotate
+ * Transparent bottom
+ * Guide lines
+ 
+
+   ![imagen_logo_fadein_fondo](img/logo_1.png)
+
+
+   ![imagen_logo_zoom_fondo](img/logo_2.png)
+
+
+   ![imagen_logo_rotate_fondo](img/logo_3.png)
 
 ## SIGNUP VIEW
 
