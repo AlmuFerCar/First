@@ -4,7 +4,7 @@
  * Splash init with image online [Splash_java](https://github.com/AlmuFerCar/First/blob/master/app/src/main/java/com/afernandezcar/first/Splash.java)
 
 
-   ![image_splash_internet](img/splash_con_carga_imagen.png)
+![image_splash_internet](<center>img/splash_con_carga_imagen.png</center>)
 
 
 If the internet image is not loaded, you see a background color that is predefined
