@@ -16,7 +16,7 @@ If the internet image is not loaded, you see a background color that is predefin
  * Logo animation (zoom logo) [Logo_zoom](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/anim/scale.xml)
 
 
-   ![image_splash_internet](img/logo_splash_normal.png) | ![image_splash_internet](img/logo_splash_zoom.png)
+   ![image_splash_internet](img/logo_splash_normal.png)  ![image_splash_internet](img/logo_splash_zoom.png)
 
  *Logo splash with name project  [Splash_xml](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/layout/activity_splash.xml)
     *change font [Letra_Splash](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/font/barriecito.xml)
@@ -54,7 +54,7 @@ If the internet image is not loaded, you see a background color that is predefin
    * Guide lines [guide_lines](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/layout/activity_login.xml)
 
 
-![imagen_logo_fadein_fondo](img/login_1.png)  ![imagen_logo_zoom_fondo](img/login_2.png)  ![imagen_logo_rotate_fondo](img/login_3.png)
+   ![imagen_logo_fadein_fondo](img/login_1.png)  ![imagen_logo_zoom_fondo](img/login_2.png)  ![imagen_logo_rotate_fondo](img/login_3.png)  ![imagen_logo_rotate_fondo](img/login_4.png)
 
   #### LOGIN HORIZONTAL VIEW
 
@@ -62,9 +62,25 @@ If the internet image is not loaded, you see a background color that is predefin
 * Design rotate view [rotate view xml](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/layout-land/activity_login.xml)
 
 
-![login rotate view](img/land_view.png)
+   ![login rotate view](img/land_view.png)
+
+
 ## SIGNUP VIEW
 
+
+This view is similar to login view
+* Icon in the edit text and password with eye icon
+
+
+[sign up view xml](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/layout/activity_signup.xml)
+
+
+```
+   \\ app:passwordToggleEnabled="true"
+   \\ app:startIconDrawable="@drawable/ic_lock"
+```
+
+   ![sign uo view](img/sign_up.png)
 ## MAIN VIEW
 
 
