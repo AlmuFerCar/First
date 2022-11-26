@@ -48,8 +48,14 @@
 
 
    * All animations are [implementates in this java file](https://github.com/AlmuFerCar/First/blob/master/app/src/main/java/com/afernandezcar/first/LoginActivity.java)
-
-
+      
+     
+      ```Java
+      ImageView thunder=findViewById(R.id.mono);
+        Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
+        thunder.startAnimation(myanim);
+      ```
+     
    * [Transparent bottom](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/layout/activity_login.xml)
 
 
@@ -57,6 +63,7 @@
 
 
    ![imagen_logo_fadein_fondo](img/login_1.png)  ![imagen_logo_zoom_fondo](img/login_2.png)  ![imagen_logo_rotate_fondo](img/login_3.png)  ![imagen_logo_rotate_fondo](img/login_4.png)
+
 
   #### LOGIN HORIZONTAL VIEW
 
@@ -71,6 +78,8 @@
 
 
 This view is similar to login view
+
+
 * Icon in the edit text and password with eye icon [in this xml file](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/layout/activity_signup.xml)
    
   
@@ -113,10 +122,10 @@ This view is similar to login view
    ![zoom image](img/imagen_zoom.png) ![zoom image](img/imagen_con_zoom.png)
 
 
-* App bar menu with back arrow  [Change file Manifest](https://github.com/AlmuFerCar/First/blob/master/app/src/main/AndroidManifest.xml)        
-
-
-```XML
+* App bar menu with back arrow  [Change file Manifest](https://github.com/AlmuFerCar/First/blob/master/app/src/main/AndroidManifest.xml)
+   
+  
+   ```XML
     <activity
       android:name=".Main"
       android:exported="true"
@@ -125,7 +134,7 @@ This view is similar to login view
       android:name="android.app.lib_name"
       android:value="" />
     </activity>
-```
+   ```
 
 
    ![appbar menu](img/appbar.png)
