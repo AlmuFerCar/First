@@ -48,6 +48,9 @@ public class Main extends AppCompatActivity {
         //  miVisorWeb.getSettings().setJavaScriptEnabled(true);
         miVisorWeb.getSettings().setBuiltInZoomControls(true);
         miVisorWeb.loadUrl("https://thispersondoesnotexist.com");
+
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.myswipe);
+        swipeLayout.setOnRefreshListener(mOnRefreshListener);
     }
 
     // DIALOGO MODAL
@@ -58,7 +61,7 @@ public class Main extends AppCompatActivity {
         MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(this);
 
 //        //el dialogo estandar tiene título/icono pero podemos sustituirlo por un XML a medida
-        builder.setTitle("Achtung!");
+        builder.setTitle("Vas a abandorme!");
         builder.setMessage("Where do you go?");
         builder.setIcon(R.drawable.mono);
         builder.setCancelable(false);
@@ -71,7 +74,7 @@ public class Main extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 // do something like...
-                Intent intent = new Intent(Main.this, SignupActivity.class);
+                Intent intent = new Intent(Main.this, LoginActivity.class);
                 startActivity(intent);
                 dialog.dismiss();
 
@@ -93,8 +96,9 @@ public class Main extends AppCompatActivity {
             public void onClick(DialogInterface dialog, int which) {
 
                 // do something like...
-
                 dialog.dismiss();
+                 System.exit(0);
+
             }
         });
 
@@ -130,16 +134,16 @@ public class Main extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        if (id == R.id.item1) {
+        if (id == R.id.itemset) {
 //            showAlertDialogButtonClicked(Main.this);
 
-            Toast toast = Toast.makeText(this, "Rec", Toast.LENGTH_LONG);
-            toast.show();
+            Toast toast8 = Toast.makeText(this, "Settings", Toast.LENGTH_LONG);
+            toast8.show();
 
         }
-        if (id == R.id.item2) {
-            Toast toast = Toast.makeText(this, "Searching", Toast.LENGTH_LONG);
-            toast.show();
+        if (id == R.id.itemsearch) {
+            Toast toast9 = Toast.makeText(this, "Search", Toast.LENGTH_LONG);
+            toast9.show();
         }
 
         if (id == R.id.item3) {
@@ -189,21 +193,8 @@ public class Main extends AppCompatActivity {
                 return true;
 
             case R.id.item2:
-                Toast toast1 =Toast.makeText(this, "Item copied", Toast.LENGTH_LONG);
-                toast1.show();
-//                final ConstraintLayout mLayout2 = findViewById(R.id.myMainConstraint);
-//
-//                Snackbar snackbar2 = Snackbar
-//                        .make(mLayout2, "fancy a Snack while you refresh?", Snackbar.LENGTH_LONG)
-//                        .setAction("UNDO", new View.OnClickListener() {
-//                            @Override
-//                            public void onClick(View view) {
-//                                Snackbar snackbar3 = Snackbar.make(mLayout2, "Action is restored!", Snackbar.LENGTH_SHORT);
-//                                snackbar3.show();
-//                            }
-//                        });
-//
-//                snackbar2.show();
+                Toast toast2 =Toast.makeText(this, "Downloading item...", Toast.LENGTH_LONG);
+                toast2.show();
                 return true;
 
             default:

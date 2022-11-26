@@ -16,10 +16,13 @@
 
    ![image_splash_internet](img/logo_splash_normal.png)  ![image_splash_internet](img/logo_splash_zoom.png)
 
- *Logo splash with name project  [Splash_xml](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/layout/activity_splash.xml)
-    *change font [Letra_Splash](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/font/barriecito.xml)
-    *background gradient (the background is not visible because when starting the image or java background is loaded)[Gradiente_fondo_Splash](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/drawable/gradient.xml)
+ * Logo splash with name project  [Splash_xml](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/layout/activity_splash.xml)
    
+   
+   * change font [Letra_Splash](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/font/barriecito.xml)
+
+
+   * background gradient (the background is not visible because when starting the image or java background is loaded)[Gradiente_fondo_Splash](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/drawable/gradient.xml)
 
    ![imagen_splash_internet](img/vista_splash_sin_java.png)
 
@@ -81,7 +84,92 @@ This view is similar to login view
 ## MAIN VIEW
 
 
+* Main View java [main java](https://github.com/AlmuFerCar/First/blob/master/app/src/main/java/com/afernandezcar/first/Main.java)
 
+
+* Main View xml (WebView) [main xml](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/layout/activity_main.xml)
+
+
+   ![main view](img/main_1.png)
+
+
+*Option select image
+
+
+   ![select image](img/context_menu.png)
+
+
+   * if you select copy
+
+
+   ![select image](img/context_menu_copy.png)
+
+
+* option zoom image and image with zoom
+
+
+   ![zoom image](img/imagen_zoom.png) ![zoom image](img/imagen_con_zoom.png)
+
+
+* App bar menu with back arrow
+
+
+[change file Manifest](https://github.com/AlmuFerCar/First/blob/master/app/src/main/AndroidManifest.xml)        
+
+
+```XML
+    <activity
+      android:name=".Main"
+      android:exported="true"
+      android:parentActivityName=".LoginActivity">
+      <meta-data
+      android:name="android.app.lib_name"
+      android:value="" />
+    </activity>
+```
+
+
+   ![appbar menu](img/appbar.png)
+
+
+* Refresh Webview
+
+
+[main java](https://github.com/AlmuFerCar/First/blob/master/app/src/main/java/com/afernandezcar/first/Main.java)
+
+
+   ![refresh web view icon](img/main_2.png)
+
+
+* Click search and settings icons
+
+
+[main java](https://github.com/AlmuFerCar/First/blob/master/app/src/main/java/com/afernandezcar/first/Main.java)
+
+
+[appbar menu](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/menu/menu_appbar.xml)
+
+
+   ![search bottom](img/main_3.png) ![settings bottom](img/main_4.png)
+
+
+* Click on the settings button and display the menu with an option with an icon
+
+
+   ![setting_bottom_display](img/main_6.png)
+
+
+* Message click sign out with logo in the message
+
+
+   ![message sign out](img/main_7.png)
+
+ 
+
+|TITULO1 |TITULO2 |
+|:-----:|:----:|
+|       |      |
+| CONTENIDO COLUMNA 1 | CONTENIDO COLUMNA 2 |
 
 
 

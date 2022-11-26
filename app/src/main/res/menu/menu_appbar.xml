@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <item
-        android:id="@+id/item1"
-        android:title="Rec"
-        android:icon="@drawable/ic_voice"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/item2"
+        android:id="@+id/itemsearch"
         android:title="Search"
         android:icon="@drawable/ic_search"
         app:showAsAction="ifRoom" />
-
+    <item
+        android:id="@+id/itemset"
+        android:title="Settings"
+        android:icon="@drawable/ic_set"
+        app:showAsAction="ifRoom" >
+    <menu>
     <item
         android:id="@+id/item3"
         android:title="Bottom app bar"
@@ -26,6 +27,11 @@
     <item
         android:id="@+id/item5"
         android:title="Signout"
-        app:showAsAction="never" />
-
+        app:showAsAction="never"
+        android:icon="@drawable/ic_exit"/>
 </menu>
+    </item>
+</menu>
+
+
+
