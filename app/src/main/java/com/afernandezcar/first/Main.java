@@ -70,7 +70,7 @@ public class Main extends AppCompatActivity {
 //        builder.setView(getLayoutInflater().inflate(R.layout.alertdialog_view, null));
 
         // add the buttons
-        builder.setPositiveButton("Signup", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("Signout", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 // do something like...
@@ -81,7 +81,7 @@ public class Main extends AppCompatActivity {
             }
         });
 
-        builder.setNegativeButton("Do nothing", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton("Stay Here", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
 
@@ -91,7 +91,7 @@ public class Main extends AppCompatActivity {
             }
         });
 
-        builder.setNeutralButton("Other", new DialogInterface.OnClickListener() {
+        builder.setNeutralButton("Exit", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
 
