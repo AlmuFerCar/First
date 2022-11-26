@@ -7,10 +7,8 @@
    ![image_splash_internet](img/splash_con_carga_imagen.png)
 
 
-If the internet image is not loaded, you see a background color that is predefined
-
-
-   ![imagen_splash_internet](img/splash_sin_carga_imagen.png)
+   If the internet image is not loaded, you see a background color that is predefined
+      ![imagen_splash_internet](img/splash_sin_carga_imagen.png)
 
 
  * Logo animation (zoom logo) [Logo_zoom](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/anim/scale.xml)
@@ -69,18 +67,17 @@ If the internet image is not loaded, you see a background color that is predefin
 
 
 This view is similar to login view
-* Icon in the edit text and password with eye icon
-
-
-[sign up view xml](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/layout/activity_signup.xml)
+* Icon in the edit text and password with eye icon  [sign up view xml](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/layout/activity_signup.xml)
 
 
 ```
-   \\ app:passwordToggleEnabled="true"
-   \\ app:startIconDrawable="@drawable/ic_lock"
+    app:passwordToggleEnabled="true"
+    app:startIconDrawable="@drawable/ic_lock"
 ```
 
    ![sign uo view](img/sign_up.png)
+
+
 ## MAIN VIEW
 
 
