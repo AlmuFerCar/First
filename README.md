@@ -163,7 +163,9 @@ This view is similar to login view
 
    ![message sign out](img/main_7.png)
 
- 
+
+>This repository is licensed under
+>[Creativecommons Org Licenses By Sa 4](http://creativecommons.org/licenses/by-sa/4.0/)
 
 
 
