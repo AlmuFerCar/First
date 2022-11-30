@@ -61,13 +61,13 @@ public class Main extends AppCompatActivity {
         MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(this);
 
 //        //el dialogo estandar tiene título/icono pero podemos sustituirlo por un XML a medida
-        builder.setTitle("Vas a abandorme!");
-        builder.setMessage("Where do you go?");
+//        builder.setTitle("Vas a abandorme!");
+//        builder.setMessage("Where do you go?");
         builder.setIcon(R.drawable.mono);
         builder.setCancelable(false);
 
 //        // un XML a medida para el diálogo
-//        builder.setView(getLayoutInflater().inflate(R.layout.alertdialog_view, null));
+        builder.setView(getLayoutInflater().inflate(R.layout.alertdialog_view, null));
 
         // add the buttons
         builder.setPositiveButton("Signout", new DialogInterface.OnClickListener() {

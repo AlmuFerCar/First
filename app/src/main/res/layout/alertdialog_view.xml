@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imgmono"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/mono"
+        android:layout_margin="16dp"
+        />
+
+    <TextView
+        app:layout_constraintStart_toEndOf="@+id/imgmono"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1dialog"
+        android:text="¿Vas a abandonarme ☹️?️"
+        android:textSize="20sp"
+        android:textColor="@color/paleta1_marron"
+        android:layout_margin="16dp"
+        >
+
+    </TextView>
+
+    <TextView
+        app:layout_constraintStart_toStartOf="@id/tv1dialog"
+        app:layout_constraintTop_toBottomOf="@id/tv1dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Que quieres hacer?"
+        android:textSize="16sp"
+        android:layout_margin="16dp"
+        android:id="@+id/subtitulo"
+        >
+
+    </TextView>
+    <ImageView
+        android:id="@+id/imgwalk"
+        app:layout_constraintStart_toEndOf="@id/subtitulo"
+        app:layout_constraintTop_toTopOf="@id/tv1dialog"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_personwalk"
+        android:layout_marginTop="43dp"
+        android:layout_marginLeft="8dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
