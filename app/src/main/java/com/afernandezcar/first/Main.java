@@ -70,7 +70,7 @@ public class Main extends AppCompatActivity {
         builder.setView(getLayoutInflater().inflate(R.layout.alertdialog_view, null));
 
         // add the buttons
-        builder.setPositiveButton("Signout", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton(R.string.signout, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 // do something like...
@@ -81,7 +81,7 @@ public class Main extends AppCompatActivity {
             }
         });
 
-        builder.setNegativeButton("Stay Here", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton(R.string.stay, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
 
@@ -91,7 +91,7 @@ public class Main extends AppCompatActivity {
             }
         });
 
-        builder.setNeutralButton("Exit", new DialogInterface.OnClickListener() {
+        builder.setNeutralButton(R.string.exit, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
 
@@ -111,7 +111,7 @@ public class Main extends AppCompatActivity {
             mOnRefreshListener = new SwipeRefreshLayout.OnRefreshListener() {
         @Override
         public void onRefresh() {
-            Toast toast0 = Toast.makeText(Main.this, "Hi there! I don't exist :)", Toast.LENGTH_LONG);
+            Toast toast0 = Toast.makeText(Main.this, R.string.txrrefresh, Toast.LENGTH_LONG);
             toast0.show();
             miVisorWeb.reload();
             swipeLayout.setRefreshing(false);
@@ -137,12 +137,12 @@ public class Main extends AppCompatActivity {
         if (id == R.id.itemset) {
 //            showAlertDialogButtonClicked(Main.this);
 
-            Toast toast8 = Toast.makeText(this, "Settings", Toast.LENGTH_LONG);
+            Toast toast8 = Toast.makeText(this, R.string.settings, Toast.LENGTH_LONG);
             toast8.show();
 
         }
         if (id == R.id.itemsearch) {
-            Toast toast9 = Toast.makeText(this, "Search", Toast.LENGTH_LONG);
+            Toast toast9 = Toast.makeText(this, R.string.search, Toast.LENGTH_LONG);
             toast9.show();
         }
 
@@ -180,11 +180,11 @@ public class Main extends AppCompatActivity {
                  final ConstraintLayout mLayout = findViewById(R.id.myMainConstraint);
 
                 Snackbar snackbar = Snackbar
-                        .make(mLayout, "fancy a Snack while you refresh?", Snackbar.LENGTH_LONG)
+                        .make(mLayout, R.string.txrrefresh2, Snackbar.LENGTH_LONG)
                         .setAction("UNDO", new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
-                                Snackbar snackbar1 = Snackbar.make(mLayout, "Action is restored!", Snackbar.LENGTH_SHORT);
+                                Snackbar snackbar1 = Snackbar.make(mLayout, R.string.restore, Snackbar.LENGTH_SHORT);
                                 snackbar1.show();
                             }
                         });
@@ -193,7 +193,7 @@ public class Main extends AppCompatActivity {
                 return true;
 
             case R.id.item2:
-                Toast toast2 =Toast.makeText(this, "Downloading item...", Toast.LENGTH_LONG);
+                Toast toast2 =Toast.makeText(this, R.string.download, Toast.LENGTH_LONG);
                 toast2.show();
                 return true;
 

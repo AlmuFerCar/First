@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv1dialog"
-        android:text="¿Vas a abandonarme ☹️?️"
+        android:text="@string/dialogpropio"
         android:textSize="20sp"
         android:textColor="@color/paleta1_marron"
         android:layout_margin="16dp"

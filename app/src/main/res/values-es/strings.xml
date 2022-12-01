@@ -8,8 +8,28 @@
     <string name="welcome">Bienvenido</string>
     <string name="action_sign_in_short">Registrate</string>
     <string name="pass">Contraseña</string>
-    <string name="action_sign_in">Inicio sesion</string>
+    <string name="action_sign_in">Registrarse</string>
     <string name="invalid_username">Usuario no valido</string>
     <string name="invalid_password">Contraseña debe tener >5 caracteres</string>
     <string name="login_failed">Inicio erróneo</string>
+    <string name="nameUsu">Nombre usuario</string>
+    <string name="login">Inicio sesión</string>
+    <string name="cancel">Cancelar</string>
+    <string name="email">Correo</string>
+    <string name="repass">Repetir Contraseña</string>
+    <string name="search">Buscar</string>
+    <string name="settings">Ajustes</string>
+    <string name="btnappbar">Botón app bar</string>
+    <string name="btnnav">Botón navegación</string>
+    <string name="signout">Desconectar</string>
+    <string name="stay">Quedarme aquí</string>
+    <string name="exit">Salir</string>
+    <string name="txrrefresh">Ey! No existo :)</string>
+    <string name="txrrefresh2">¿Te apetece un Snack mientras te refrescas?</string>
+    <string name="restore">Acción restaurada</string>
+    <string name="download">Descargando item</string>
+    <string name="dialogpropio">¿Vas a abandonarme ☹️?</string>
+    <string name="dialogpropio2">¿Qué quieres hacer?</string>
+
+
 </resources>

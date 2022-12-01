@@ -4,29 +4,29 @@
 
     <item
         android:id="@+id/itemsearch"
-        android:title="Search"
+        android:title="@string/search"
         android:icon="@drawable/ic_search"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/itemset"
-        android:title="Settings"
+        android:title="@string/settings"
         android:icon="@drawable/ic_set"
         app:showAsAction="ifRoom" >
     <menu>
     <item
         android:id="@+id/item3"
-        android:title="Bottom app bar"
+        android:title="@string/btnappbar"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/item4"
-        android:title="Bottom navigation"
+        android:title="@string/btnnav"
         app:showAsAction="never" />
 
 
     <item
         android:id="@+id/item5"
-        android:title="Signout"
+        android:title="@string/signout"
         app:showAsAction="never"
         android:icon="@drawable/ic_exit"/>
 </menu>
