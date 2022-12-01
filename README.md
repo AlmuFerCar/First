@@ -199,9 +199,6 @@ This view is similar to login view
    ![dark mode](img/modonoche.png)
 
 
-   Night mode with Spanish language
-
-
 ## Other similar project ---> [Second](https://github.com/AlmuFerCar/Second.git)
 
 
