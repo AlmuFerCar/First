@@ -167,7 +167,15 @@ This view is similar to login view
 ## In process...
 
 
-* Customizing the dialog menu with my own xml file
+* Customizing the dialog menu with my own [xml file](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/layout/alertdialog_view.xml) implements in [java file](https://github.com/AlmuFerCar/First/blob/master/app/src/main/java/com/afernandezcar/first/Main.java)
+
+
+     ```Java
+        builder.setView(getLayoutInflater().inflate(R.layout.alertdialog_view, null));
+      ```
+
+
+   ![diaologo propio](img/dialogopropio.png)
 
 
 * Internationalization of the app:
@@ -176,10 +184,27 @@ This view is similar to login view
   * Process: string file right click Open Translations Editor, choose language and translate
 
 
+   ![proceso internacionalizacion](img/menulengua.png)
+
+
+   ![internacionalizacion](img/internacionalizacion.png)
+
+
 * Night mode:
   
   
   * Process: new values file select night mode and switch to the right, then add the colors with less lightness (lower the line)
+
+
+   ![dark mode](img/modonoche.png)
+
+
+   Night mode with Spanish language
+
+
+   !
+
+## Other similar project ---> [Second](https://github.com/AlmuFerCar/Second.git)
 
 
 ## Content seen in class
