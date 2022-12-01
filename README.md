@@ -175,10 +175,7 @@ This view is similar to login view
      ```
 
 
-   ![diaologo_propio](img/dialogopropio.png)
-
-
-   ![message sign out](img/main_7.png)
+   ![diaologo propio](img/dialogopropio.png)
 
 
 * Internationalization of the app:
@@ -187,10 +184,10 @@ This view is similar to login view
   * Process: string file right click Open Translations Editor, choose language and translate
 
 
-   ![proceso internacionalizacion](img/menuinternacinalizacion.png)
+   ![proceso internacionalizacion](img/menuinternacionalizacion.png)
 
 
-   ![internacionalizacion](img/internacionalizacion)
+   ![internacionalizacion](img/internacionalizacion.png)
 
 
 * Night mode:
