@@ -202,8 +202,6 @@ This view is similar to login view
    Night mode with Spanish language
 
 
-   !
-
 ## Other similar project ---> [Second](https://github.com/AlmuFerCar/Second.git)
 
 
