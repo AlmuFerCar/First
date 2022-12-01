@@ -172,10 +172,10 @@ This view is similar to login view
 
      ```Java
         builder.setView(getLayoutInflater().inflate(R.layout.alertdialog_view, null));
-      ```
+     ```
 
 
-   ![diaologo propio](img/dialogopropio.png)
+   ![diaologo propio](img/)
 
 
 * Internationalization of the app:
@@ -184,10 +184,10 @@ This view is similar to login view
   * Process: string file right click Open Translations Editor, choose language and translate
 
 
-   ![proceso internacionalizacion](img/menulengua.png)
+   ![proceso internacionalizacion](img/)
 
 
-   ![internacionalizacion](img/internacionalizacion.png)
+   ![internacionalizacion](img/)
 
 
 * Night mode:
@@ -196,7 +196,7 @@ This view is similar to login view
   * Process: new values file select night mode and switch to the right, then add the colors with less lightness (lower the line)
 
 
-   ![dark mode](img/modonoche.png)
+   ![dark mode](img/)
 
 
    Night mode with Spanish language
