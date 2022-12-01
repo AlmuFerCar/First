@@ -164,7 +164,7 @@ This view is similar to login view
    ![message sign out](img/main_7.png)
 
 
-## In process...
+## Adicional content
 
 
 * Customizing the dialog menu with my own [xml file](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/layout/alertdialog_view.xml) implements in [java file](https://github.com/AlmuFerCar/First/blob/master/app/src/main/java/com/afernandezcar/first/Main.java)
