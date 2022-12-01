@@ -164,13 +164,25 @@ This view is similar to login view
    ![message sign out](img/main_7.png)
 
 
->This repository is licensed under
->[Creativecommons Org Licenses By Sa 4](http://creativecommons.org/licenses/by-sa/4.0/)
+## In process...
 
-## En proceso...
-* Personalized el dialog menu with self xml
-* Internacionalizacion de la app (añadir el idioma y hay que añadir en string todos los textos boton drecho string para añadir idioma el ultimo apartado)
-* Night mode (crear modo noche con un nuevo archivo de values pasanod el modo noche a la derecha y luego añadiendo los colores con mienos luminosidad bajar la linea)
+
+* Customizing the dialog menu with my own xml file
+
+
+* Internationalization of the app:
+
+
+  * Process: string file right click Open Translations Editor, choose language and translate
+
+
+* Night mode:
+  
+  
+  * Process: new values file select night mode and switch to the right, then add the colors with less lightness (lower the line)
+
+
+## Content seen in class
 
 
 | TEMAS                | CONTENIDOS                    |
@@ -187,3 +199,7 @@ This view is similar to login view
 | HANDLER              |                               |
 | INTERNACIONALIZACION |                               |
 | FONTS                |                               |
+
+
+>This repository is licensed under
+>[Creativecommons Org Licenses By Sa 4](http://creativecommons.org/licenses/by-sa/4.0/)
