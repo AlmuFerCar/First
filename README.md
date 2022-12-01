@@ -178,6 +178,9 @@ This view is similar to login view
    ![diaologo_propio](img/dialogopropio.png)
 
 
+   ![message sign out](img/main_7.png)
+
+
 * Internationalization of the app:
 
 
