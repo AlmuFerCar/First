@@ -175,7 +175,7 @@ This view is similar to login view
      ```
 
 
-   ![diaologo propio](img/)
+   ![diaologo_propio](img/dialogopropio.png)
 
 
 * Internationalization of the app:
@@ -184,10 +184,10 @@ This view is similar to login view
   * Process: string file right click Open Translations Editor, choose language and translate
 
 
-   ![proceso internacionalizacion](img/)
+   ![proceso internacionalizacion](img/menuinternacinalizacion.png)
 
 
-   ![internacionalizacion](img/)
+   ![internacionalizacion](img/internacionalizacion)
 
 
 * Night mode:
@@ -196,7 +196,7 @@ This view is similar to login view
   * Process: new values file select night mode and switch to the right, then add the colors with less lightness (lower the line)
 
 
-   ![dark mode](img/ghd)
+   ![dark mode](img/modonoche.png)
 
 
    Night mode with Spanish language
