@@ -32,7 +32,7 @@
  * [Background_gradient](https://github.com/AlmuFerCar/First/blob/master/app/src/main/res/drawable/gradient.xml)
 
 
- * [Image face backfround](https://github.com/AlmuFerCar/First/blob/master/app/src/main/java/com/afernandezcar/first/LoginActivity.java)
+ * [Image face background](https://github.com/AlmuFerCar/First/blob/master/app/src/main/java/com/afernandezcar/first/LoginActivity.java)
 
 
  * Animation fade in
@@ -167,5 +167,23 @@ This view is similar to login view
 >This repository is licensed under
 >[Creativecommons Org Licenses By Sa 4](http://creativecommons.org/licenses/by-sa/4.0/)
 
+## En proceso...
+* Personalized el dialog menu with self xml
+* Internacionalizacion de la app (añadir el idioma y hay que añadir en string todos los textos boton drecho string para añadir idioma el ultimo apartado)
+* Night mode (crear modo noche con un nuevo archivo de values pasanod el modo noche a la derecha y luego añadiendo los colores con mienos luminosidad bajar la linea)
 
 
+| TEMAS                | CONTENIDOS                    |
+|----------------------|-------------------------------|
+| ESTILO               | themes, styles, colors, night |
+| IMAGENES             | icons, glide,scrim            |
+| MENUS                | context, appbar               |
+| ACCION               | swipe, onclick                |
+| COMPONENTES MATERIAL |                               |
+| LAYOUTS              | constraint, landscape         |
+| DIALOGS              |                               |
+| ANIMACIONES          | constraint, landscape         |
+| BUTTON SELECTOR      | checkbox                      |
+| HANDLER              |                               |
+| INTERNACIONALIZACION |                               |
+| FONTS                |                               |
