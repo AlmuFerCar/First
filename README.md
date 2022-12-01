@@ -196,7 +196,7 @@ This view is similar to login view
   * Process: new values file select night mode and switch to the right, then add the colors with less lightness (lower the line)
 
 
-   ![dark mode](img/)
+   ![dark mode](img/ghd)
 
 
    Night mode with Spanish language
