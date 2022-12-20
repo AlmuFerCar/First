@@ -28,10 +28,8 @@
     <string name="restore">Action is restored!</string>
     <string name="download">Downloading item...</string>
     <string name="dialogpropio">Are you going to leave me  ☹️?</string>
-️  <string name="dialogpropio2">What do you want to do?</string>
-
-
-
+    ️
+    <string name="dialogpropio2">What do you want to do?</string>
 
 
 </resources>
