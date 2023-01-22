@@ -152,7 +152,7 @@ public class Main extends AppCompatActivity {
         }
 
         if (id == R.id.item4) {
-            Intent intent = new Intent(this, LoginActivity.class);
+            Intent intent = new Intent(this, MainBn.class);
             startActivity(intent);
         }
 
